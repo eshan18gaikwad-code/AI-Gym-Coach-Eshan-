@@ -1,0 +1,54 @@
+
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+**/__pycache__/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+
+# ==============================
+# Database files
+# ==============================
+Main App/data.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Python development tools
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Historical tutorial notes and copied snippets (not used by the app)
+Main App/tutorial-info/
