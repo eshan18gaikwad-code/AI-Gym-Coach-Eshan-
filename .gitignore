@@ -1,4 +1,3 @@
-
 # ==============================
 # Python cache files
 # ==============================
@@ -27,7 +26,7 @@ ENV/
 # ==============================
 # Database files
 # ==============================
-Main App/data.db
+Main-App/data.db
 *.sqlite
 *.sqlite3
 
@@ -51,4 +50,4 @@ desktop.ini
 .ruff_cache/
 
 # Historical tutorial notes and copied snippets (not used by the app)
-Main App/tutorial-info/
+Main-App/tutorial-info/
